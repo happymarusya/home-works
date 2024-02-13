@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.split {
+    height: 100%;
+    top: 0;
+    width: 50%;
+}
+
+.left {
+    left: 0;
+    background-color: #FFFFFB;
+    min-height: 1200px;
+}
+
+.right {
+    right: 0;
+    background-color: #F8F8FA;
+    min-height: 1200px;
+}
+
+.logo {
+    width: 262px;
+    height: 55px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 27px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: end;
+}
+
+.first-page-info {
+    max-width: 600px;
+    margin-top: 194px;
+    margin-left: 423px;
+}
+
+.first-page-image img {
+    margin-top: 254px;
+    margin-left: 11px;
+}
+
+.main-title {
+    height: 56px;
+    margin-bottom: 7px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.first-page-text {
+    color: #636363;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 42px;
+    height: 81px;
+}
+
+.first-page-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    height: 60px;
+    margin-right: 85px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-bottom: 1px solid #C6C6C4;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #323232;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.label span {
+    color: #C6C6C4;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.checkbox {
+    margin-top: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox span {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+button {
+    width: 210px;
+    height: 70px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: #DD3142;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+form button {
+    margin-left: 124px;
+    margin-bottom: 44px;
+}
+
+.question {
+    color: #636363;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-left: 138px;
+    cursor: pointer;
+}
+
+.pop-up {
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 2;
+    transform: translateY(-44.5%) scale(0);
+    transition: .4s ease-in-out;
+}
+
+.pop-up.active {
+    /*display: block;*/
+    transform: translateY(0%) scale(100%);
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.pop-up-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-up-body {
+    margin: auto;
+    width: 500px;
+    background-color: #F8F8FA;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+}
+
+.pop-up-body p {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+

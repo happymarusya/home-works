@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<section class="main">
+    <div class="first-page">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="split left">
+                <div class="first-page-info">
+                    <div class="main-title">
+                        <h1 id="main-title">Get your free account</h1>
+                    </div>
+                    <div class="first-page-text">
+                        <p>Try homeWorks BUSINESS free for 15 days. Downgrade to Basic
+                            (Free Forever) anytime.
+                        </p>
+                    </div>
+                    <div class="first-page-form">
+                        <form id="form" action="https://webhook.site/59f764e7-076b-4c8d-bdc6-3a1b95b67597" method="post">
+                            <label class="label" id="fullNameRemove">
+                                <span>Full Name</span>
+                                <input type="text" name="name" id="fullName" required>
+                            </label>
+                            <label class="label">
+                                <span>Your username</span>
+                                <input type="text" name="username" id="userName" required>
+                            </label>
+                            <label class="label" id="emailRemove">
+                                <span>E-mail</span>
+                                <input type="email" name="email" id="email" required>
+                            </label>
+                            <label class="label">
+                                <span>Password</span>
+                                <input type="password" name="password" id="password" required>
+                            </label>
+                            <label class="label" id="passwordRepeatRemove">
+                                <span>Repeat Password</span>
+                                <input type="password" name="password" id="passwordRepeat" required>
+                            </label>
+                            <label class="checkbox" id="checkboxRemove">
+                                <input type="checkbox" id="checkbox" name="agree"><span>Agree to our Terms of Service and Privacy
+                                Statement</span>
+                            </label>
+                            <button type="button" id="button">Sign Up</button>
+                            <span class="question" id="question">Already have an account?</span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="split right">
+                <div class="first-page-image">
+                    <img src="images/image-main.png" alt="Photo">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="pop-up" id="pop-up">
+    <div class="pop-up-container">
+        <div class="pop-up-body">
+            <p>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+            <div>
+                <button id="pop-up-button">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
