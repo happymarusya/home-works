@@ -120,6 +120,8 @@ window.onload = function () {
 
 }
 
+console.log("The end");
+
 
 //Создайте страницу для регистрации на сайте по Figma-макету и подключите к ней javascript и css файлы.
 
