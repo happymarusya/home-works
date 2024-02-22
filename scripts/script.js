@@ -122,6 +122,8 @@ window.onload = function () {
 
 console.log("The end");
 console.log("The end 2");
+console.log("The end 3");
+
 
 
 //Создайте страницу для регистрации на сайте по Figma-макету и подключите к ней javascript и css файлы.
