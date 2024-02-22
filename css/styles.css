@@ -175,7 +175,7 @@ form button {
 .pop-up.active {
     /*display: block;*/
     transform: translateY(0%) scale(100%);
-    background-color: rgba(128, 128, 128, 0.8);
+    background-color: rgba(84, 84, 84, 0.8);
 }
 
 .pop-up-container {
